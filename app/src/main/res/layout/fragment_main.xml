@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:onClick="onClickSerie1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_1_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="onClickSerie2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="onClickSerie3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_3_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="onClickSerie4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_4_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:onClick="onClickSerie5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_5_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="onClickSerie6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_6_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="onClickSerie7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_7_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_7" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="onClickSerie8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.23"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8 Serie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/serie_8_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serie_8" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">My BMW</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quam odio, pellentesque eget ipsum sit amet, accumsan facilisis elit. Vestibulum sed nisl viverra, maximus sapien a, egestas nisi. Donec aliquam luctus gravida. Etiam vel leo id odio aliquam consequat. Maecenas lobortis velit luctus tortor lacinia dictum. Aenean id neque eget nibh eleifend condimentum. Nam vitae congue sapien. Vestibulum et nulla id ante dictum varius. Praesent imperdiet, ligula ut pharetra sagittis, orci elit mattis diam, ac maximus justo lectus accumsan magna. Etiam aliquet aliquam porttitor. Nam et accumsan felis. Donec sem sapien, mollis a consectetur ac, interdum at est. Pellentesque tincidunt lorem sed iaculis porttitor. In in ex sapien. Mauris odio erat, ornare non cursus et, ultricies eu mauris. Nunc luctus sem eget odio malesuada, vitae varius metus viverra. In molestie molestie sapien sagittis tempor. Sed tincidunt eleifend nisl nec rutrum.</string>
+
+</resources>
